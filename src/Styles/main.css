@@ -1,0 +1,450 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6em;
+    background-color: #cccccc;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: transparent;
+    z-index: 999;
+    transition: background 0.3s, box-shadow 0.3s;
+    padding: 15px 30px;
+}
+
+header.scrolled {
+    background-color: #35424a;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.container1 {
+    background: linear-gradient(to right, #5f27cd, #341f97);
+    height: 650px;
+}
+
+.container1 #logo h1 {
+    font-size: 20px;
+
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.code {
+
+
+    padding: 20px;
+}
+
+.text {
+    float: left;
+    margin-top: 150px
+}
+
+.text h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+
+}
+
+.text span {
+    color: #feca57;
+}
+
+.text p {
+    color: #ffffff;
+    font-size: 1rem;
+    margin-bottom: 30px;
+
+}
+
+.btn {
+    display: flex;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    width: 60%;
+    float: left;
+    gap: 10px;
+    justify-content: left;
+}
+
+.btn #primary {
+    background-color: #feca57;
+    color: #000;
+    border: 1.5px black solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btn #secondary {
+    background-color: transparent;
+    color: #ffffff;
+    border: 1.5px #ffffff solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.code .profile {
+    display: inline;
+    margin-right: 30px;
+    width: 30%;
+}
+
+.code .profile .profile-img {
+    float: right;
+    margin-top: 150px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.code .profile .profile-img:hover {
+    transform: scale(1.15);
+}
+
+.code .profile .profile-img.floating-assistant {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+
+#logo {
+    float: left;
+    color: #ffffff;
+    font-size: 10px;
+}
+
+nav {
+    float: right;
+
+}
+
+nav li {
+    display: inline;
+    font-size: 13px;
+    margin: 0 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgb(17, 255, 0);
+    font-size: 12px;
+}
+
+nav .highlight {
+    color: rgb(250, 250, 12);
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.oxy {
+    background-color: #ffffff;
+}
+
+.tilt {
+    padding-top: 30px;
+
+}
+
+p .description {
+    max-width: 700px;
+    margin: 30px 15px;
+    font-size: 2em;
+    line-height: 1.6;
+    color: #555;
+    text-align: center;
+    line-height: 1.6em;
+}
+
+.about-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    size: 50px;
+    padding: 10px;
+    margin: 30px auto;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 20px;
+    width: 28%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.card p {
+    font-size: 12px;
+    color: #666;
+}
+
+.skills {
+    background-color: #f7f7f7;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+    font-weight: bold;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.column {
+    flex: 1;
+    min-width: 300px;
+}
+
+.skill {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.skill-label {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-bottom: 5px;
+    padding: 0 5px;
+}
+
+.skill-bar {
+    background-color: #e0e0e0;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.bar {
+    height: 100%;
+    background-color: #007bff;
+    transition: width 1s ease-in-out;
+    border-radius: 5px;
+}
+
+.features {
+    background-color: #ffffff;
+    padding-bottom: 30px;
+
+}
+
+.features .cut {
+    display: flex;
+    justify-content: center;
+
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.features h1 {
+    padding-top: 30px;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+
+.card-1 {
+
+
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    width: 25%;
+    margin-right: 0px;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-1 img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    background: #cccccc;
+}
+
+.title {
+    font-size: 1.5em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 0.8em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.stack {
+    margin-bottom: 10px;
+}
+
+.tag {
+    display: inline;
+    background-color: #444;
+    color: white;
+    font-size: 0.7em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.button {
+
+    float: left;
+    display: flex;
+
+}
+
+.button .code {
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    background-color: #e0e0e0;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.button .demo {
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.extra {
+    text-align: center;
+    padding: 50px 10px;
+    background-color: #1c1c1c;
+}
+
+.extra h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.extra p {
+    font-size: 18px;
+    color: #cccccc;
+    margin-bottom: 30px;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.items {
+    text-align: center;
+}
+
+.items h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.items p {
+    color: #ccc;
+    font-size: 15px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.links a {
+    color: white;
+    border: solid 2px white;
+
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    background-color: #ffffff;
+    transform: scale(1.1);
+    color: #35424a;
+    box-shadow: 0 4px 10px white;
+}
+
+footer {
+    background-color: #1c1c1c;
+}
+
+.copyright {
+    text-align: center;
+    padding: 20px;
+
+    color: #999;
+    font-size: 14px;
+}
