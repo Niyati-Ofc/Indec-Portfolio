@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Niyati-Ofc.io/Indec-Portfolio/static/css/main.0bf04142.css",
+    "main.js": "/Niyati-Ofc.io/Indec-Portfolio/static/js/main.839e1a7e.js",
+    "static/js/453.f650359c.chunk.js": "/Niyati-Ofc.io/Indec-Portfolio/static/js/453.f650359c.chunk.js",
+    "static/media/Profiile.jpg": "/Niyati-Ofc.io/Indec-Portfolio/static/media/Profiile.0656808365ff76627da3.jpg",
+    "index.html": "/Niyati-Ofc.io/Indec-Portfolio/index.html",
+    "main.0bf04142.css.map": "/Niyati-Ofc.io/Indec-Portfolio/static/css/main.0bf04142.css.map",
+    "main.839e1a7e.js.map": "/Niyati-Ofc.io/Indec-Portfolio/static/js/main.839e1a7e.js.map",
+    "453.f650359c.chunk.js.map": "/Niyati-Ofc.io/Indec-Portfolio/static/js/453.f650359c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bf04142.css",
+    "static/js/main.839e1a7e.js"
+  ]
+}
