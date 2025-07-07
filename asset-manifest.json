@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Niyati-Ofc.github.io/Indec-Portfolio/static/css/main.0bf04142.css",
-    "main.js": "/Niyati-Ofc.github.io/Indec-Portfolio/static/js/main.263a1291.js",
-    "static/js/453.f650359c.chunk.js": "/Niyati-Ofc.github.io/Indec-Portfolio/static/js/453.f650359c.chunk.js",
-    "static/media/Profiile.jpg": "/Niyati-Ofc.github.io/Indec-Portfolio/static/media/Profiile.0656808365ff76627da3.jpg",
-    "index.html": "/Niyati-Ofc.github.io/Indec-Portfolio/index.html",
-    "main.0bf04142.css.map": "/Niyati-Ofc.github.io/Indec-Portfolio/static/css/main.0bf04142.css.map",
-    "main.263a1291.js.map": "/Niyati-Ofc.github.io/Indec-Portfolio/static/js/main.263a1291.js.map",
-    "453.f650359c.chunk.js.map": "/Niyati-Ofc.github.io/Indec-Portfolio/static/js/453.f650359c.chunk.js.map"
+    "main.css": "/Indec-Portfolio/static/css/main.0bf04142.css",
+    "main.js": "/Indec-Portfolio/static/js/main.ebc8f513.js",
+    "static/js/453.f650359c.chunk.js": "/Indec-Portfolio/static/js/453.f650359c.chunk.js",
+    "static/media/Profiile.jpg": "/Indec-Portfolio/static/media/Profiile.0656808365ff76627da3.jpg",
+    "index.html": "/Indec-Portfolio/index.html",
+    "main.0bf04142.css.map": "/Indec-Portfolio/static/css/main.0bf04142.css.map",
+    "main.ebc8f513.js.map": "/Indec-Portfolio/static/js/main.ebc8f513.js.map",
+    "453.f650359c.chunk.js.map": "/Indec-Portfolio/static/js/453.f650359c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0bf04142.css",
-    "static/js/main.263a1291.js"
+    "static/js/main.ebc8f513.js"
   ]
 }
